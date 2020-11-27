@@ -55,7 +55,6 @@ def visiualize():
         choice = data[1]
         cv2.imshow("Recorded",img)
         print(img.shape)
-        break
         #print(choice)
         if cv2.waitKey(10) == ord('q'):
             cv2.destroyAllWindows()
